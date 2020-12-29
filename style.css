@@ -1,0 +1,62 @@
+body{
+  background-color: black;
+  x-overflow: hidden;
+}
+
+.draw{
+  border: 5px solid grey;
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.tool{
+  background-color: whitesmoke;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  margin: 5px;
+  text-align: center;
+}
+
+#favcolor{
+  width: 100%;
+}
+
+#favnumber{
+  width: 50px;
+}
+
+#btn{
+  width: 80%;
+  background-color: black;
+  color: white;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  padding: 2px;
+}
+
+#btn:hover{
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.rg{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  padding: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
